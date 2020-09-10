@@ -16,7 +16,7 @@ struct node {
 
 // Function declarations
 struct node* merge(struct node * head1, struct node * head2);
-struct node* mergesort(struct node* head, int size);
+struct node* mergesort(struct node* head);
 void printlist(struct node* head);
 int get_size(struct node* head);
 
