@@ -1,6 +1,6 @@
 /*
 Maria Elena Aviles-Baquero
-September 11, 2020
+September 10, 2020
 CPSC 346 02
 Project 1 Header
 */
@@ -16,7 +16,8 @@ struct node {
 
 // Function declarations
 struct node* merge(struct node * head1, struct node * head2);
-struct node* mergesort(struct node* head);
+struct node* mergesort(struct node** head, int size);
+void push(struct node** head, int new_item);
 void printlist(struct node* head);
 int get_size(struct node* head);
 
